@@ -1,0 +1,152 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /**************
+  ===============
+  Hero Section */
+
+  .hero__title {
+    text-align: center;
+  }
+  .hero__title--underline {
+    display: none;
+  }
+  .hero__content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-btn-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .hero-btn:not(last-child) {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  /****************
+   Hero section End
+  =================
+   */
+
+  /* Testimonial carousel Section start*/
+  .carousel-right {
+    margin-left: 0;
+    margin-bottom: 3rem;
+  }
+  .carousel-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* Testimonial carousel Section end*/
+
+  /* section-jumbotron-left Start */
+  .section-jumbotron-left{
+    margin-bottom: 10rem;
+  }
+  /* section-jumbotron-left end */
+
+  /* Areas of social section start */
+  .social-media__title{
+    text-align: center;
+  }
+  .social-media__icon{
+    display: block;
+    margin: 0 auto;
+  }
+  /* Areas of social section end */
+
+  /* Contact us */
+
+
+  /* Foooter Section */
+
+  .footer-nav__list{
+    padding-bottom: 5rem;
+  }
+  .footer-nav-link__right--padding{
+    padding-right: 6rem;
+  }
+  .footer-copyright__text {
+    margin-top: 1.5rem;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Hero Section */
+  .hero__content {
+    width: 100%;
+  }
+    /*=================== 
+  Package Plan Section
+  ******************* */
+  .card-title{
+    font-size: 2.5rem;
+  }
+  .card-plan__text{
+    font-size: 1.5rem;
+  }
+  .card-plan__price{
+    font-size: 3rem;
+  }
+
+/*======================== 
+  Package Plan Section end
+  ******************* */
+  /* Footer Section*/
+  .footer-nav-link__right--padding{
+    padding-right: 0;
+  }
+  .footer-social__icons{
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Hero Section */
+  .hero__content {
+    width: 100%;
+  }
+     /*=================== 
+  Package Plan Section
+  ******************* */
+  .card-title{
+    font-size: 2.5rem;
+  }
+  .card-plan__text{
+    font-size: 1.5rem;
+  }
+  .card-plan__price{
+    font-size: 3rem;
+  }
+
+/*======================== 
+  Package Plan Section end
+  ******************* */
+  .contact-us__left{
+    width: 100%;
+    /* margin-top: 316px; */
+  }
+   /* Footer Section*/
+   .footer-nav-link__right--padding{
+    padding-right: 0;
+  }
+  .footer-social__icons{
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width:770px){
+  .contact-us__left-side {
+    margin: 0 auto;
+    margin-top: 13rem;
+}
+.contact-us__left{
+  width: 90%;
+}
+
+
+}
+
+
+
